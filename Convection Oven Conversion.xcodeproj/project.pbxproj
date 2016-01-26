@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D146311C5829AC00AB9EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D146301C5829AC00AB9EF9 /* AppDelegate.swift */; };
+		64D146331C5829AC00AB9EF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D146321C5829AC00AB9EF9 /* ViewController.swift */; };
+		64D146361C5829AC00AB9EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D146341C5829AC00AB9EF9 /* Main.storyboard */; };
+		64D146381C5829AC00AB9EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D146371C5829AC00AB9EF9 /* Assets.xcassets */; };
+		64D1463B1C5829AC00AB9EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D146391C5829AC00AB9EF9 /* LaunchScreen.storyboard */; };
+		64D146461C5829AC00AB9EF9 /* Convection_Oven_ConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D146451C5829AC00AB9EF9 /* Convection_Oven_ConversionTests.swift */; };
+		64D146511C5829AC00AB9EF9 /* Convection_Oven_ConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D146501C5829AC00AB9EF9 /* Convection_Oven_ConversionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D146421C5829AC00AB9EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D146251C5829AC00AB9EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D1462C1C5829AC00AB9EF9;
+			remoteInfo = "Convection Oven Conversion";
+		};
+		64D1464D1C5829AC00AB9EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D146251C5829AC00AB9EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D1462C1C5829AC00AB9EF9;
+			remoteInfo = "Convection Oven Conversion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64D1462D1C5829AC00AB9EF9 /* Convection Oven Conversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convection Oven Conversion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D146301C5829AC00AB9EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D146321C5829AC00AB9EF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D146351C5829AC00AB9EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D146371C5829AC00AB9EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D1463A1C5829AC00AB9EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D1463C1C5829AC00AB9EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D146411C5829AC00AB9EF9 /* Convection Oven ConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convection Oven ConversionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D146451C5829AC00AB9EF9 /* Convection_Oven_ConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convection_Oven_ConversionTests.swift; sourceTree = "<group>"; };
+		64D146471C5829AC00AB9EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D1464C1C5829AC00AB9EF9 /* Convection Oven ConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convection Oven ConversionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D146501C5829AC00AB9EF9 /* Convection_Oven_ConversionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convection_Oven_ConversionUITests.swift; sourceTree = "<group>"; };
+		64D146521C5829AC00AB9EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D1462A1C5829AC00AB9EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D1463E1C5829AC00AB9EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D146491C5829AC00AB9EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D146241C5829AC00AB9EF9 = {
+			isa = PBXGroup;
+			children = (
+				64D1462F1C5829AC00AB9EF9 /* Convection Oven Conversion */,
+				64D146441C5829AC00AB9EF9 /* Convection Oven ConversionTests */,
+				64D1464F1C5829AC00AB9EF9 /* Convection Oven ConversionUITests */,
+				64D1462E1C5829AC00AB9EF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D1462E1C5829AC00AB9EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D1462D1C5829AC00AB9EF9 /* Convection Oven Conversion.app */,
+				64D146411C5829AC00AB9EF9 /* Convection Oven ConversionTests.xctest */,
+				64D1464C1C5829AC00AB9EF9 /* Convection Oven ConversionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D1462F1C5829AC00AB9EF9 /* Convection Oven Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				64D146301C5829AC00AB9EF9 /* AppDelegate.swift */,
+				64D146321C5829AC00AB9EF9 /* ViewController.swift */,
+				64D146341C5829AC00AB9EF9 /* Main.storyboard */,
+				64D146371C5829AC00AB9EF9 /* Assets.xcassets */,
+				64D146391C5829AC00AB9EF9 /* LaunchScreen.storyboard */,
+				64D1463C1C5829AC00AB9EF9 /* Info.plist */,
+			);
+			path = "Convection Oven Conversion";
+			sourceTree = "<group>";
+		};
+		64D146441C5829AC00AB9EF9 /* Convection Oven ConversionTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D146451C5829AC00AB9EF9 /* Convection_Oven_ConversionTests.swift */,
+				64D146471C5829AC00AB9EF9 /* Info.plist */,
+			);
+			path = "Convection Oven ConversionTests";
+			sourceTree = "<group>";
+		};
+		64D1464F1C5829AC00AB9EF9 /* Convection Oven ConversionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64D146501C5829AC00AB9EF9 /* Convection_Oven_ConversionUITests.swift */,
+				64D146521C5829AC00AB9EF9 /* Info.plist */,
+			);
+			path = "Convection Oven ConversionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D1462C1C5829AC00AB9EF9 /* Convection Oven Conversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D146551C5829AC00AB9EF9 /* Build configuration list for PBXNativeTarget "Convection Oven Conversion" */;
+			buildPhases = (
+				64D146291C5829AC00AB9EF9 /* Sources */,
+				64D1462A1C5829AC00AB9EF9 /* Frameworks */,
+				64D1462B1C5829AC00AB9EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Convection Oven Conversion";
+			productName = "Convection Oven Conversion";
+			productReference = 64D1462D1C5829AC00AB9EF9 /* Convection Oven Conversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64D146401C5829AC00AB9EF9 /* Convection Oven ConversionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D146581C5829AC00AB9EF9 /* Build configuration list for PBXNativeTarget "Convection Oven ConversionTests" */;
+			buildPhases = (
+				64D1463D1C5829AC00AB9EF9 /* Sources */,
+				64D1463E1C5829AC00AB9EF9 /* Frameworks */,
+				64D1463F1C5829AC00AB9EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D146431C5829AC00AB9EF9 /* PBXTargetDependency */,
+			);
+			name = "Convection Oven ConversionTests";
+			productName = "Convection Oven ConversionTests";
+			productReference = 64D146411C5829AC00AB9EF9 /* Convection Oven ConversionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64D1464B1C5829AC00AB9EF9 /* Convection Oven ConversionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D1465B1C5829AC00AB9EF9 /* Build configuration list for PBXNativeTarget "Convection Oven ConversionUITests" */;
+			buildPhases = (
+				64D146481C5829AC00AB9EF9 /* Sources */,
+				64D146491C5829AC00AB9EF9 /* Frameworks */,
+				64D1464A1C5829AC00AB9EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D1464E1C5829AC00AB9EF9 /* PBXTargetDependency */,
+			);
+			name = "Convection Oven ConversionUITests";
+			productName = "Convection Oven ConversionUITests";
+			productReference = 64D1464C1C5829AC00AB9EF9 /* Convection Oven ConversionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D146251C5829AC00AB9EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mediadsm;
+				TargetAttributes = {
+					64D1462C1C5829AC00AB9EF9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					64D146401C5829AC00AB9EF9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 64D1462C1C5829AC00AB9EF9;
+					};
+					64D1464B1C5829AC00AB9EF9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 64D1462C1C5829AC00AB9EF9;
+					};
+				};
+			};
+			buildConfigurationList = 64D146281C5829AC00AB9EF9 /* Build configuration list for PBXProject "Convection Oven Conversion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D146241C5829AC00AB9EF9;
+			productRefGroup = 64D1462E1C5829AC00AB9EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D1462C1C5829AC00AB9EF9 /* Convection Oven Conversion */,
+				64D146401C5829AC00AB9EF9 /* Convection Oven ConversionTests */,
+				64D1464B1C5829AC00AB9EF9 /* Convection Oven ConversionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D1462B1C5829AC00AB9EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D1463B1C5829AC00AB9EF9 /* LaunchScreen.storyboard in Resources */,
+				64D146381C5829AC00AB9EF9 /* Assets.xcassets in Resources */,
+				64D146361C5829AC00AB9EF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D1463F1C5829AC00AB9EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D1464A1C5829AC00AB9EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D146291C5829AC00AB9EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D146331C5829AC00AB9EF9 /* ViewController.swift in Sources */,
+				64D146311C5829AC00AB9EF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D1463D1C5829AC00AB9EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D146461C5829AC00AB9EF9 /* Convection_Oven_ConversionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D146481C5829AC00AB9EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D146511C5829AC00AB9EF9 /* Convection_Oven_ConversionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D146431C5829AC00AB9EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D1462C1C5829AC00AB9EF9 /* Convection Oven Conversion */;
+			targetProxy = 64D146421C5829AC00AB9EF9 /* PBXContainerItemProxy */;
+		};
+		64D1464E1C5829AC00AB9EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D1462C1C5829AC00AB9EF9 /* Convection Oven Conversion */;
+			targetProxy = 64D1464D1C5829AC00AB9EF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64D146341C5829AC00AB9EF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D146351C5829AC00AB9EF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D146391C5829AC00AB9EF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D1463A1C5829AC00AB9EF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D146531C5829AC00AB9EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D146541C5829AC00AB9EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D146561C5829AC00AB9EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Convection Oven Conversion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadsm.Convection-Oven-Conversion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64D146571C5829AC00AB9EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Convection Oven Conversion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadsm.Convection-Oven-Conversion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64D146591C5829AC00AB9EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Convection Oven ConversionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadsm.Convection-Oven-ConversionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convection Oven Conversion.app/Convection Oven Conversion";
+			};
+			name = Debug;
+		};
+		64D1465A1C5829AC00AB9EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Convection Oven ConversionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadsm.Convection-Oven-ConversionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convection Oven Conversion.app/Convection Oven Conversion";
+			};
+			name = Release;
+		};
+		64D1465C1C5829AC00AB9EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Convection Oven ConversionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadsm.Convection-Oven-ConversionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Convection Oven Conversion";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		64D1465D1C5829AC00AB9EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Convection Oven ConversionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadsm.Convection-Oven-ConversionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Convection Oven Conversion";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D146281C5829AC00AB9EF9 /* Build configuration list for PBXProject "Convection Oven Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D146531C5829AC00AB9EF9 /* Debug */,
+				64D146541C5829AC00AB9EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D146551C5829AC00AB9EF9 /* Build configuration list for PBXNativeTarget "Convection Oven Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D146561C5829AC00AB9EF9 /* Debug */,
+				64D146571C5829AC00AB9EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64D146581C5829AC00AB9EF9 /* Build configuration list for PBXNativeTarget "Convection Oven ConversionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D146591C5829AC00AB9EF9 /* Debug */,
+				64D1465A1C5829AC00AB9EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64D1465B1C5829AC00AB9EF9 /* Build configuration list for PBXNativeTarget "Convection Oven ConversionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D1465C1C5829AC00AB9EF9 /* Debug */,
+				64D1465D1C5829AC00AB9EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D146251C5829AC00AB9EF9 /* Project object */;
+}
